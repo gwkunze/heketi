@@ -80,7 +80,7 @@ var clusterCreateCommand = &cobra.Command{
   * Create a cluster only for file volumes:
       $ heketi-cli cluster create --block=false
 
-  * Create a cluster only for block columes:
+  * Create a cluster only for block volumes:
       $ heketi-cli cluster create --file=false
 `,
 	RunE: func(cmd *cobra.Command, args []string) error {
